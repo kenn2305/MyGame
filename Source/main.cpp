@@ -7,7 +7,6 @@
 int main(){
     std::chrono::microseconds lag(0);
     std::chrono::steady_clock::time_point previous_time = std::chrono::steady_clock::now();
-    std::chrono::microseconds toltal_time(0);
     sf::RenderWindow window(sf::VideoMode(GAME_WIDTH,GAME_HEIGHT),"Kenn Game",sf::Style::Close);
     window.requestFocus();
     sf::Event event;
@@ -35,6 +34,7 @@ int main(){
                     }
                 }
             }
+            player.Input_Manager();
             player.UpdatePos();
             //for Update logic , movement , collision , etc
             if (lag < FRAME_DURATION){

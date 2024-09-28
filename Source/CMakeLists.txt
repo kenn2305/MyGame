@@ -11,7 +11,9 @@ add_executable(Game main.cpp
         Player.cpp
         Headers/Map.h
         Headers/Map.h
-        Map.cpp)
+        Map.cpp
+        Headers/Physics.h
+        Physics.cpp)
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/SFML/lib/cmake/SFML)
 find_package(SFML COMPONENTS system window graphics audio network REQUIRED)

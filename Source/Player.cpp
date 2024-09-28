@@ -2,6 +2,7 @@
 
 Player::Player() {
     InitPlayer();
+    InitIndex();
 }
 
 void Player::InitPlayer() {
@@ -15,7 +16,34 @@ void Player::DrawPlayer(sf::RenderWindow *window) {
 }
 
 void Player::UpdatePos() {
-    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)) {
-        this->sprite.move(10.5, 0);
+    this->physics.Horizontal_movement(&this->sprite , &this->dir , (&this->moving));
+}
+
+void Player::Input_Manager() {
+    //Input check
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
+        this->move_right = true;
+    } else {
+        this->move_right = false;
     }
+    if (sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
+        this->move_left = true;
+    } else {
+        this->move_left = false;
+    }
+    //set moving
+    if (!this->move_left && this->move_right){
+        this->dir = RIGHT;
+        this->moving = true;
+    } else if (!this->move_right && this->move_left){
+        this->dir = LEFT;
+        this->moving = true;
+    } else {
+        this->moving = false;
+    }
+}
+
+void Player::InitIndex() {
+    this->moving = false;
+    this->dir = RIGHT;
 }
