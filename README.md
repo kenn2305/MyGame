@@ -3,10 +3,10 @@
 </p>
 
 <h1 align="center">Hi, I'm <a href="https://www.edisonlee55.com">Kenn (OvO)</a>!</h1>
-<h1 align="center">Welcome to my GitHub profile~ OwO</h1>
+<h1 align="center">Welcome to my SFML ~ OwO</h1>
 
 <p align="center">
-  <a href="https://github.com/yuna0x0"><img src="https://www.pinterest.com/pin/948289265268219317/"></a>
+  <a href="https://github.com/yuna0x0"><img src="https://tenor.com/search/hatsune-miku-hot-gifs"></a>
 </p>
 
 <p align="center">
