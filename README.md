@@ -2,7 +2,7 @@
   <a href="https://www.edisonlee55.com"><img src="https://i.pinimg.com/originals/d9/31/ed/d931ed452892ff82b978d225c10cf628.gif" alt="Banner"></a>
 </p>
 
-<h1 align="center">Hi, I'm <a href="https://www.edisonlee55.com">yuna0x0 (edisonlee55)</a>!</h1>
+<h1 align="center">Hi, I'm <a href="https://www.edisonlee55.com">Kenn (edisonlee55)</a>!</h1>
 <h1 align="center">Welcome to my GitHub profile~ OwO</h1>
 
 <p align="center">
